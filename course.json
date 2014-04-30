@@ -1,0 +1,283 @@
+{
+    "program": "Computer Science",
+    "requirements-level": "Major",
+    "student": {
+        "id": "1234567",
+        "first-name": "John",
+        "middle-initial": "J",
+        "last-name": "Deer"
+    },
+    "courses": [
+        {
+            "department": "CSCI",
+            "course-number": "117",
+            "name": "Introduction to Computers and Computing",
+            "credits": 4,
+            "student-grade": 94,
+            "prerequisites": [],
+            "description": "An introduction to problem solving with computers, using the Python programming language. Students will learn to design, implement, document and test programs. Language topics include iteration, decision, user-defined functions, and structured data types. No previous programming experience is expected. Prospective computer science majors or minors should begin with this course, which is also appropriate for students who wish to learn some programming, but plan to take no additional computer science courses. Python is a widely-used and accessible programming language for which many excellent tools and libraries exist.  Meets: 195 minutes weekly. Offered every semester. CLA-Quantitative"
+        },
+        {
+            "department": "CSCI",
+            "course-number": "151",
+            "name": "Object Oriented Programming",
+            "credits": 4,
+            "student-grade": 94,
+            "prerequisites": [
+                {
+                    "department": "CSCI",
+                    "course-number": "117",
+                    "student-grade": 94,
+                    "alternatives" : [
+                        {
+                            "department": "MATH",
+                            "course-number": "117",
+                            "pass-threshold" : 70
+                        }
+
+                    ],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "MATH",
+                    "course-number": "117",
+                    "student-grade": 92,
+                    "alternatives" : [
+                        {
+                            "department": "CSCI",
+                            "course-number": "117",
+                            "pass-threshold" : 70
+                        }
+
+                    ],
+                    "pass-threshold" : 70
+                }
+            ],
+            "description": "Designing, writing, and testing structured computer programs. Decomposing problems; writing function definitions; conditional and iterative control constructs; using class libraries. Problem-solving through programming with classes and vectors; algorithm correctness; recursion. Java will be the language of instruction. Meets: three times weekly for 65 minutes plus once a week for a 75 minute laboratory. Prerequisite: C- or better in CSCI 115 or CSCI 117. Same as: MAT+868. Offered every semester. CLA-Quantitative"
+        },
+        {
+            "department": "MATH",
+            "course-number": "117", 
+            "name": "Introductory Statistics",
+            "credits": 4,
+            "student-grade": 94,
+            "prerequisites": [],
+            "description": "This course is designed to enable you to use statistics for data analysis and to understand the use of statistics in the media. The course makes use of SPSS, a widely-used statistics package for the computer. Course topics include graphical and tabular presentation of data, measures of central tendency, dispersion, and shape, linear transformations of data, correlation, regression, basic probability and the normal probability model, sampling, t-tests, and one-way analysis of variance. Meets: 150 minutes weekly, with an additional weekly 50-minute recitation. Same as: MAT+861. Offered every semester. CLA-Quantitative"
+        },
+        {
+            "department": "CSCI",
+            "course-number": "210",
+            "name": "Human Interaction with Technology and Information",
+            "credits": 4,
+            "student-grade": 80,
+            "prerequisites": [],
+            "description": "A study of how people perceive technology and the ways in which they consume and create information. An introduction to the practice of designing technology with careful consideration for its users. No programming experience is required prior to taking this course. Meets: weekly for at least 150 minutes. Offered fall and spring semesters."
+        },
+        {
+            "department": "CSCI",
+            "course-number": "220",
+            "name": "Discrete Mathematics for Computer Science",
+            "credits": 4,
+            "student-grade": 85,
+            "prerequisites": [],
+            "description": "Mathematics central to the study of computer science. Topics include: set theory, logic, induction, combinatorics, number theory, graph theory, sequences and series, matrices, and recurrence relations. Meets: weekly for three 65-minute periods. Prerequisite: C- or better in CSCI 115. Offered fall semester"
+        },
+        {
+            "department": "CSCI",
+            "course-number": "230",
+            "name": "Data Structures",
+            "credits": 4,
+            "student-grade": 85,
+            "prerequisites": [
+                {
+                    "department": "CSCI",
+                    "course-number": "151",
+                    "student-grade": 94,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                }
+            ],
+            "description": "Introduction to the study of abstract data types and the analysis of algorithms. Students will write Java applications using data structures such as linked lists, stacks, queues, multidimensional arrays, trees, sets, maps, and heaps. Meets: weekly for three 65-minute periods, with an additional weekly 75-minute laboratory. Prerequisite: Prerequisite: C- or better in CSCI 151. Offered spring semester."
+        },
+        {
+            "department": "CSCI",
+            "course-number": "320",
+            "name": "Systems Programming and Tools",
+            "credits": 4,
+            "student-grade": 90,
+            "prerequisites": [
+                {
+                    "department": "CSCI",
+                    "course-number": "151",
+                    "student-grade": 94,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                }
+            ],
+            "description": "Development of software in the C programming language. User-functionality of the UNIX operating system. Architecture of the UNIX operating system from a programmer’s perspective. Machine-level representation of data; assembly-level machine organization. Tools for large-scale software engineering including integrated development environments and code versioning systems. Prerequisite: C- or better in CSCI 151."
+        },
+        {
+            "department": "CSCI",
+            "course-number": "325",
+            "name": "Operating Systems",
+            "credits": 4,
+            "student-grade": 90,
+            "prerequisites": [
+                {
+                    "department": "CSCI",
+                    "course-number": "320",
+                    "student-grade": 90,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                }
+            ],
+            "description": "The fundamentals of operating systems design and implementation. Basic structure; synchronization and communication mechanisms; implementation of processes, process management, scheduling, and protection; memory organization and management; file systems; machine-level representation of data; assembly-level machine organization; functional organization of computers. Meets: 150 minutes weekly. Prerequisite: C- or better in CSCI 320. Offered fall semester in even-numbered years."
+        },
+        {
+            "department": "CSCI",
+            "course-number": "330",
+            "name": "Information Management",
+            "credits": 4,
+            "student-grade": 90,
+            "prerequisites": [
+                {
+                    "department": "CSCI",
+                    "course-number": "151",
+                    "student-grade": 94,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "CSCI",
+                    "course-number": "210",
+                    "student-grade": 80,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                }
+
+            ],
+            "description": "Theory and practice of information storage, management and retrieval, emphasizing relational database management systems. Case studies of small-scale (personal computing) and large-scale (corporate records on distributed systems) applications. Data modeling, database design and management, query processing, data integrity, and security. Legal and social contexts of data management; the responsibility of professionals to understand requirements, risks, and liabilities. Prerequisite: C- or better in CSCI 151 and CSCI 210."
+        },
+        {
+            "department": "CSCI",
+            "course-number": "340",
+            "name": "Software Engineering",
+            "credits": 4,
+            "student-grade": 90,
+            "prerequisites": [
+                {
+                    "department": "MATH",
+                    "course-number": "117",
+                    "student-grade": 94,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "CSCI",
+                    "course-number": "210",
+                    "student-grade": 80,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "CSCI",
+                    "course-number": "320",
+                    "student-grade": 90,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                }
+
+            ],
+            "description": "Software design; using APIs; software tools and environments; software processes; software requirements and specifications; software validation; software evolution; software project management; methods and tools of working in teams; social context of computing; professional and ethical responsibilities; risks and liabilities of computer-based systems. Prerequisite: C- or better in MATH 117, CSCI 210, and CSCI 320."
+        },
+        {
+            "department": "CSCI",
+            "course-number": "350",
+            "name": "Net-centric Computing",
+            "credits": 4,
+            "student-grade": 90,
+            "prerequisites": [
+                {
+                    "department": "MATH",
+                    "course-number": "117",
+                    "student-grade": 94,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "CSCI",
+                    "course-number": "210",
+                    "student-grade": 80,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "CSCI",
+                    "course-number": "320",
+                    "student-grade": 90,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                }
+
+            ],
+            "description": "Communication and networking; the social context of computing; intellectual property; network security; the web as an example of client-server computing; building web applications; network management; compression and decompression; wireless and mobile computing; virtual machines; knowledge representation and reasoning. Meets: weekly for at least 150 minutes. Prerequisite: CSCI 220 and C- or better in MATH 117, CSCI 210, and CSCI 320."
+        },
+        {
+            "department": "CSCI",
+            "course-number": "370",
+            "name": "Algorithm Analysis and Computability",
+            "credits": 4,
+            "student-grade": null,
+            "prerequisites": [
+                {
+                    "department": "CSCI",
+                    "course-number": "220",
+                    "student-grade": 80,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "CSCI",
+                    "course-number": "230",
+                    "student-grade": 85,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                }
+
+            ],
+            "description": "Methods for the analysis of time and space efficiency, comparison of brute-force algorithms with divide-and-conquer algorithms, tree algorithms, graph algorithms, string algorithms, dynamic programming, and greedy methods. An introduction to NP-completeness and intractability. Turing machines, Church’s thesis, determinism and non-determinism, unsolvability and reducibility. Search and constraint satisfaction. Meets: weekly for three 65-minute periods. Prerequisite: C- or better in CSCI 230 and C- or better in CSCI 220. Offered spring semester."
+        },
+        {
+            "department": "CSCI",
+            "course-number": "400",
+            "name": " Applications of Computing to Other Disciplines",
+            "credits": 4,
+            "student-grade": null,
+            "prerequisites": [
+                {
+                    "department": "MATH",
+                    "course-number": "117",
+                    "student-grade": 94,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "CSCI",
+                    "course-number": "210",
+                    "student-grade": 80,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "CSCI",
+                    "course-number": "320",
+                    "student-grade": 90,
+                    "alternatives" : [],
+                    "pass-threshold" : 70
+                }
+
+            ],
+            "description": "Much of computer science is practiced through application of computing to other disciplines. In this capstone course, the instructor and students will develop a software solution to a problem arising in another field. Application areas include, but are not limited to finance, economics, biology, and law. We will explore strategies for learning in and contributing to inter-disciplinary teams, customer-client communication; software design, requirements, specification, and project management. Meets weekly for at least 150 minutes. Prerequisite: CSCI 220, CSCI 230, and C- or better in MATH 117, CSCI 210, and CSCI 320. CLA-Capstone"
+        }
+    ]
+}

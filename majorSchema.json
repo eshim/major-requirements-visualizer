@@ -1,0 +1,51 @@
+{
+    "program": "Computer Science",
+    "requirements-level": "Major",
+    "student": {
+        "id": "1234567",
+        "first-name": "John",
+        "middle-initial": "J",
+        "last-name": "Deer"
+    },
+    "courses": [
+        {
+            "department": "CSCI",
+            "course-number": "151",
+            "name": "Object Oriented Programming",
+            "credits": 4,
+            "student-grade": 94,
+            "prerequisites": [
+                {
+                    "department": "CSCI",
+                    "course-number": "117",
+                    "student-grade": 94,
+                    "alternatives" : [
+                        {
+                            "department": "MATH",
+                            "course-number": "117",
+                            "pass-threshold" : 70
+                        }
+
+                    ],
+                    "pass-threshold" : 70
+                },
+                {
+                    "department": "MATH",
+                    "course-number": "117",
+                    "student-grade": 92,
+                    "alternatives" : [
+                        {
+                            "department": "CSCI",
+                            "course-number": "117",
+                            "pass-threshold" : 70
+                        }
+
+                    ],
+                    "pass-threshold" : 70
+                }
+            ],
+            "description": "Designing, writing, and testing structured computer programs. Decomposing problems; writing function definitions; conditional and iterative control constructs; using class libraries. Problem-solving through programming with classes and vectors; algorithm correctness; recursion. Java will be the language of instruction. Meets: three times weekly for 65 minutes plus once a week for a 75 minute laboratory. Prerequisite: C- or better in CSCI 115 or CSCI 117. Same as: MAT+868. Offered every semester. CLA-Quantitative"
+        },
+        
+    ]
+}
